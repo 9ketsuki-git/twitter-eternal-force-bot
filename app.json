@@ -26,9 +26,5 @@
 		{
 			"description": "Twitter access token secret"
 		}
-	},
-	"scripts":
-	{
-		"postdeploy": "npm install"
 	}
 }
