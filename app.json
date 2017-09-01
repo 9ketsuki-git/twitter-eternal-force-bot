@@ -1,0 +1,34 @@
+{
+  "name": "twitter-eternal-force-bot",
+  "description": "エタフォbot(node.js)",
+  "keywords": [
+    "twitter",
+    "エタフォ",
+    "ファボ"
+  ],
+  "repository": "https://github.com/9ketsuki-git/twitter-eternal-force-bot",
+  "logo": "http://farm4.staticflickr.com/3493/3275031724_8f367abd15.jpg",
+  "env":
+	{
+		"TWITTER_CONSUMER_KEY":
+		{
+			"description": "Twitter consumer key (API Key)"
+		},
+		"TWITTER_CONSUMER_SECRET":
+		{
+			"description": "Twitter consumer secret (API Secret)"
+		},
+		"TWITTER_ACCESS_TOKEN_KEY":
+		{
+			"description": "Twitter access token"
+		},
+		"TWITTER_ACCESS_TOKEN_SECRET":
+		{
+			"description": "Twitter access token secret"
+		}
+	},
+	"scripts":
+	{
+		"postdeploy": "npm install"
+	}
+}
