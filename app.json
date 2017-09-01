@@ -1,10 +1,8 @@
 {
   "name": "twitter-eternal-force-bot",
-  "description": "エタフォbot(node.js)",
+  "description": "eternalforce bot(node.js)",
   "keywords": [
-    "twitter",
-    "エタフォ",
-    "ファボ"
+    "twitter"
   ],
   "repository": "https://github.com/9ketsuki-git/twitter-eternal-force-bot",
   "logo": "http://farm4.staticflickr.com/3493/3275031724_8f367abd15.jpg",
