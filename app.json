@@ -26,5 +26,13 @@
 		{
 			"description": "Twitter access token secret"
 		}
+	},
+	"buildpacks": [
+	{
+		"url": "https://github.com/heroku/heroku-buildpack-nodejs"
+	}],
+	"scripts":
+	{
+		"postdeploy": "npm install"
 	}
 }
